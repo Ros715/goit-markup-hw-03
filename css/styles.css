@@ -1,0 +1,255 @@
+:root {
+    --primary-text-color: #2E2F42;
+    --title-text-color: #434445;
+    --accent-color: #4D5AE5;
+    --primary-bg-color: #E7E9FC;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.list {list-style: none;}
+
+.link { text-decoration: none;}
+
+.header {
+    background-color: #E7E9FC;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: ExtraBold;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 1.17;
+
+    color: #4D5AE5;
+
+    text-decoration: none;
+}
+.menu-link:hover,
+.menu-link:focus{
+color: #404bbf;
+text-decoration: underline;
+}
+.header-logo-nav{
+    color: #2E2F42;
+}
+.logo-nav {
+    color: #F4F4FD
+}
+.menu-link {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+
+    letter-spacing: 0.02em;
+
+    color: #2E2F42;
+}
+.address-contact{
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.contact:hover,
+.contact:focus {
+    color: #404bbf;
+    text-decoration: underline;
+
+}
+
+.contact {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+
+        color: #434455;
+}
+.section{
+    background-color: #2E2F42;
+}
+.hero {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    
+    color: #FFFFFF;
+}
+
+.modal-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+          
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    line-height: 1.5;
+    
+    color: #FFFFFF; 
+    background-color: #4D5AE5;    
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+background-color: #404BBF;
+}
+
+.section-about{
+background-color: #FFFFFF ;
+}
+
+.section-about-item {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+
+color: #2E2F42;
+}
+
+.discription-about {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+
+    color: #434455;
+}
+.section-features{
+   background-color: #FFFFFF;
+}
+
+.section-employees {
+background-color: #F4F4FD;
+}
+.section-employee-card {
+    background-color: #FFFFFF;
+}
+.employee {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+
+    color: #2E2F42;
+}
+
+.employee-list {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+
+    color: #434455
+}
+.section-name {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    color: #2E2F42;
+}
+
+.footer{
+    background-color: #2E2F42;
+}
+
+.footer-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+
+    color: #F4F4FD;
+}
+
+
+
+/*PORTFOLIO*/
+
+.section-filter {
+    background-color: #E7E9FC;
+}
+
+.filter-btn {
+    font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        line-height: 1.5;
+    
+        color: #4D5AE5;
+        background-color: #F4F4FD;
+        cursor: pointer
+}
+
+.filter-list .filter-btn:hover,
+.filter-list .filter-btn:focus {
+    background-color:#404BBF;
+    color: #FFFFFF;
+}
+
+
+.opportunity-item {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+
+    color: #2E2F42; 
+}
+
+.opportunity-app{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+
+    /* SLATE */
+
+    color: #434455;
+    
+}
