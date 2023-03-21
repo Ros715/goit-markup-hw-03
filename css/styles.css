@@ -111,6 +111,7 @@ text-decoration: underline;
 .adress-contact-title {
     margin-left: auto;
     display: flex;
+    text-align: right;
   
     padding-top: 24px;
     padding-bottom: 24px;
@@ -156,7 +157,7 @@ text-decoration: underline;
 }
 
 .modal-btn {
-    margin-bottom: 108px;
+    margin-bottom: 292px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -333,6 +334,7 @@ background-color: #FFFFFF;
 }
 
 .footer-item {
+    width: 264px;
     padding-bottom: 100px;
     font-style: normal;
     font-weight: 400;
