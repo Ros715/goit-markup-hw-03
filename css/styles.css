@@ -34,27 +34,23 @@ a {
     cursor: pointer;
 }
 
-header {
-    border-bottom: 1px solid #ececec;
-    background-color: #ffffff;
-    display: flex;
-}
-
 .container {
-    width: 1152px;
+    width: 1158px;
     padding-left: auto;
     padding-right: auto;
     text-align: center;
     margin: 0 auto;
+} 
+
+.header {
+    border-bottom: 1px solid #ececec;
+    background-color: #ffffff;
 }
 
-p,
-h1,
-h2,
-h3 {
-    margin-top: 0;
-    margin-bottom: 0;
+.header-container {
+    display: flex;
 }
+
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -75,7 +71,7 @@ color: #404bbf;
 text-decoration: underline;
 }
 .menu .menu-item {
-    margin-right: 40px;
+    margin-left: 40px;
 }
 .menu .menu-item:not(:last-child){
     margin-right: 40px;
@@ -84,17 +80,18 @@ text-decoration: underline;
     color: #2E2F42;
 }
 .logo-nav {
-    color: #F4F4FD
+    color: #F4F4FD;
 }
 .menu {
+    display: block;
     display: flex;
+    margin-left: 76px;
 }
 .menu .menu-link {
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
-    
-   
+
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -102,14 +99,26 @@ text-decoration: underline;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
+
 .address-contact{
     font-style: normal;
     line-height: 1.5;
 }
-
-/*.adress-contact-title {
+.header-nav {
     display: flex;
-}*/
+    align-items: center;
+}
+.adress-contact-title {
+    margin-left: auto;
+    display: flex;
+  
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.adress-contact-title .menu-item + .menu-item {
+   margin-left: 40px;
+}
 .contact:hover,
 .contact:focus {
     color: #404bbf;
@@ -118,7 +127,7 @@ text-decoration: underline;
 }
 
 .contact {
-    margin-right: 40px;
+   margin-left: auto;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -180,13 +189,19 @@ margin-top: 0;
 margin-bottom: 120px;
 background-color: #FFFFFF;
 }
-.section-about-title {
-    margin-top: 0;
+.section-about-us {
+    display: flex;
+    text-align: left;
 }
-.section-about-us .section-about-article {
-margin-right: 24px;
+.section-about-article {
+    width: 264px;
+    margin-left: 24px;
+   
 }
 .section-about-item {
+    margin-top: 0;
+    margin-bottom: 8px;
+
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -198,6 +213,9 @@ color: #2E2F42;
 }
 
 .discription-about {
+    margin-top: 0;
+    margin-bottom: 0;
+
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -213,7 +231,9 @@ color: #2E2F42;
    background-color: #FFFFFF;
 }
 .section-features-item {
+    width: 1158px;
     display: flex;
+
 }
 .section-features-item .section-features-card:not(:last-child){
     margin-right: 24px;
@@ -256,19 +276,22 @@ background-color: #F4F4FD;
     color: #2E2F42;
 }
 .employees-list {
+    width: 1158px;
     padding-bottom: 120px;
     text-align: center;
     display: flex;
 }
 .employees-list .section-employee-card {
-   margin-right: 24px;
-    background-color: #FFFFFF;
+margin-right: 24px;
+background-color: #FFFFFF;
+}
 
+.section-employee-card {
     padding: 0px 0px 32px;
     gap: 32px;
  
     width: 264px;
-    /*height: 380px;*/
+    height: 380px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
@@ -332,16 +355,19 @@ background-color: #F4F4FD;
 .section-filter {
     text-align: center;
     background-color: #FFFFFF;
-    display: flex;
 }
 .filter-list {
     margin-top: 92px;
     margin-bottom: 72px;
-    margin-right: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .filter-list-item {
-    display: flex;
+    text-align: center;
+}
+.filter-list .filter-list-item + .filter-list-item {
+    margin-left: 40px;
 }
 .filter-btn {
         display: inline-block;
@@ -372,12 +398,31 @@ background-color: #F4F4FD;
     color: #FFFFFF;
 }
 
+.opportunity-title {
+    width: 1158px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.opportunity-title .opportunity-title-card{
+    margin-left: 24px;
+    margin-bottom: 48px;
+}
+.opportunity-title-card {   
+    box-sizing: border-box;
+
+    width: 360px;
+    left: 156px;
+    top: 288px;
+    background: #FFFFFF;
+    border: 1px solid #E7E9FC;
+}
 .opportunity-card {
     margin-top: 0;
     margin-bottom: 32px;
 }
 
 .opportunity-item {
+    margin-top: 32px;
     margin-bottom: 8px;
     font-style: normal;
     font-weight: 500;
@@ -392,7 +437,8 @@ background-color: #F4F4FD;
 
 .opportunity-app{
     margin-top: 0;
-    margin-bottom: 32px;
+    margin-bottom: 32px;;
+
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -400,4 +446,9 @@ background-color: #F4F4FD;
 
     color: #434455;
     
+}
+
+.text {
+    text-align: left;
+    padding-left: 16px;
 }
