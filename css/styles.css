@@ -412,6 +412,7 @@ background-color: #FFFFFF;
 .opportunity-title-card {
     width:calc((100%-48)/3);
     margin-right: 24px;
+    margin-bottom: 48px;
 }
 .opportunity-title-card:nth-child(3n) {
 margin-right: 0;
