@@ -110,6 +110,10 @@ text-decoration: underline;
     display: flex;
     align-items: center;
 }
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
 .adress-contact-title {
     margin-left: auto;
     display: flex;
