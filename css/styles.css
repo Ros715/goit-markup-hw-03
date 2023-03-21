@@ -99,7 +99,9 @@ text-decoration: underline;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-
+.contact-list {
+    margin-left: auto;
+}
 .address-contact{
     font-style: normal;
     line-height: 1.5;
@@ -157,7 +159,7 @@ text-decoration: underline;
 }
 
 .modal-btn {
-    margin-bottom: 292px;
+    margin-bottom: 188px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
