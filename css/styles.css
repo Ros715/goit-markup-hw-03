@@ -403,12 +403,23 @@ background-color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
 }
-.opportunity-title .opportunity-title-card{
-    margin-left: 24px;
+/*.opportunity-title .opportunity-title-card{
+    margin-right: 24px;
     margin-bottom: 48px;
+}*/
+.opportunity-title-card {
+    width:calc((100%-48)/3);
+    margin-right: 24px;
+}
+.opportunity-title-card:nth-child(3n) {
+margin-right: 0;
+}
+.opportunity-title-card:nth-last-child(-n+3){
+    margin-bottom: 120px;
 }
 .opportunity-title-card {   
     box-sizing: border-box;
+    
 
     width: 360px;
     left: 156px;
