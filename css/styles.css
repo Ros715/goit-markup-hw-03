@@ -209,7 +209,7 @@ background-color: #FFFFFF;
 
 }
 .section-about-article {
-    width: 264px;
+    max-width: 264px;
     margin-left: 24px;
    
 }
@@ -217,7 +217,7 @@ background-color: #FFFFFF;
     margin-top: 0;
     margin-bottom: 8px;
 
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -368,7 +368,7 @@ background-color: #FFFFFF;
     padding-top: 17.5px;
     margin-top: 0;
     margin-bottom: 0;
-    width: 264px;
+    max-width: 264px;
     padding-bottom: 100px;
     font-style: normal;
     font-weight: 400;
@@ -444,7 +444,7 @@ background-color: #FFFFFF;
     margin-bottom: 48px;
 }*/
 .opportunity-title-card {
-    width:calc((100%-48)/3);
+    width:calc((100% - 48) / 3);
     margin-right: 24px;
     margin-bottom: 48px;
 }
