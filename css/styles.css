@@ -35,7 +35,7 @@ a {
 }
 
 .container {
-    width: 1158px;
+    width: 1128px;
     padding-left: auto;
     padding-right: auto;
     text-align: center;
@@ -238,11 +238,11 @@ color: #2E2F42;
    background-color: #FFFFFF;
 }
 .section-features-item {
-    width: 1158px;
+    width: 1128px;
     display: flex;
 
 }
-.section-features-item .section-features-card:not(:last-child){
+.section-features-item .section-features-card:not(:last-child) {
     margin-right: 24px;
 }
 .section-features-title {
@@ -282,8 +282,9 @@ background-color: #F4F4FD;
     
     color: #2E2F42;
 }
+
 .employees-list {
-    width: 1158px;
+  
     padding-bottom: 120px;
     text-align: center;
     display: flex;
@@ -292,7 +293,9 @@ background-color: #F4F4FD;
 margin-right: 24px;
 background-color: #FFFFFF;
 }
-
+.section-employees-name:nth-child(4n) {
+    margin-right: 0;
+}
 .section-employee-card {
     padding: 0px 0px 32px;
     gap: 32px;
@@ -407,7 +410,7 @@ background-color: #FFFFFF;
 }
 
 .opportunity-title {
-    width: 1158px;
+    width: 1128px;
     display: flex;
     flex-wrap: wrap;
 }
