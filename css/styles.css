@@ -145,14 +145,18 @@ text-decoration: underline;
 }
 .section-hero{
     margin-top: 0;
-    margin-bottom: 120px;
+    margin-bottom: 0;
     background-color: #2E2F42;
     text-align: center;
+}
+.container-hero {
+    padding-bottom: 188px;
 }
 .hero-title {
     padding-top: 188px;
     margin-top:0;
-    margin-bottom: 48px;
+    margin-bottom: 0;
+    padding-bottom: 48px;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -162,8 +166,8 @@ text-decoration: underline;
     color: #FFFFFF;
 }
 
+
 .modal-btn {
-    margin-bottom: 188px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -190,15 +194,19 @@ text-decoration: underline;
 .modal-btn:focus {
 background-color: #404BBF;
 }
-
+.container-about {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .section-about{
 margin-top: 0;
-margin-bottom: 120px;
+padding-bottom: 0;
 background-color: #FFFFFF;
 }
 .section-about-us {
     display: flex;
     text-align: left;
+
 }
 .section-about-article {
     width: 264px;
@@ -234,7 +242,7 @@ color: #2E2F42;
 }
 .section-features{
     margin-top: 0;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
    background-color: #FFFFFF;
 }
 .section-features-item {
@@ -247,7 +255,8 @@ color: #2E2F42;
 }
 .section-features-title {
     margin-top: 0;
-    margin-bottom: 72px;
+    margin-bottom: 0;
+    padding-bottom: 72px;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -265,11 +274,17 @@ color: #2E2F42;
 .section-employees {
 background-color: #F4F4FD;
 }
+.container-team {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .section-employees-name {
-    padding-top: 120px;
     margin-top: 0px;
-    margin-bottom: 72px;
+    margin-bottom: 0;
+    padding-bottom: 72px;
     text-align: center;
     font-style: normal;
     font-weight: 700;
@@ -284,8 +299,6 @@ background-color: #F4F4FD;
 }
 
 .employees-list {
-  
-    padding-bottom: 120px;
     text-align: center;
     display: flex;
 }
@@ -297,22 +310,22 @@ background-color: #FFFFFF;
     margin-right: 0;
 }
 .section-employee-card {
-    padding: 0px 0px 32px;
     gap: 32px;
  
     width: 264px;
-    height: 380px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 .employee-photo {
     margin-top: 0;
-    margin-bottom: 32px;
+    margin-bottom: 0;
+    padding-bottom: 32px;
 }
 
 .employee {
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 0;
+    padding-bottom: 8px;
 
     font-style: normal;
     font-weight: 500;
@@ -325,7 +338,8 @@ background-color: #FFFFFF;
 
 .employee-list {
     margin-top: 0;
-    margin-bottom: 32px;
+    margin-bottom: 0;
+    padding-bottom: 32px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -335,14 +349,22 @@ background-color: #FFFFFF;
     color: #434455
 }
 
-.footer{
-    background-color: #2E2F42;
+.footer {
+    margin-top: 0;
+    margin-bottom: 0;
     padding-top: 101.5px;
-    margin-bottom: 17.5px;
+    padding-bottom: 0;
     padding-left: 156px;
+
+    background-color: #2E2F42;
 }
 
+.footer-logo {
+padding-bottom: 17.5px
+}
 .footer-item {
+    margin-top: 0;
+    margin-bottom: 0;
     width: 264px;
     padding-bottom: 100px;
     font-style: normal;
@@ -354,10 +376,8 @@ background-color: #FFFFFF;
 
     color: #F4F4FD;
 }
-.footer {
-    margin-top: 0;
-    margin-bottom: 0;
-}
+
+
 
 
 
@@ -368,8 +388,10 @@ background-color: #FFFFFF;
     background-color: #FFFFFF;
 }
 .filter-list {
-    margin-top: 92px;
-    margin-bottom: 72px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 96px;
+    padding-bottom: 72px;
     display: flex;
     justify-content: center;
 }
@@ -445,8 +467,10 @@ margin-right: 0;
 }
 
 .opportunity-item {
-    margin-top: 32px;
-    margin-bottom: 8px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 32px;
+    padding-bottom: 8px;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -460,7 +484,8 @@ margin-right: 0;
 
 .opportunity-app{
     margin-top: 0;
-    margin-bottom: 32px;;
+    margin-bottom: 0;
+    padding-bottom: 32px;;
 
     font-style: normal;
     font-weight: 400;
