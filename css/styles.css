@@ -313,7 +313,7 @@ background-color: #FFFFFF;
     gap: 32px;
  
     width: 264px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 .employee-photo {
@@ -359,10 +359,9 @@ background-color: #FFFFFF;
     background-color: #2E2F42;
 }
 
-.footer-logo {
-padding-bottom: 17.5px
-}
+
 .footer-item {
+    padding-top: 17.5px
     margin-top: 0;
     margin-bottom: 0;
     width: 264px;
