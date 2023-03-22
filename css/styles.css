@@ -351,11 +351,14 @@ background-color: #FFFFFF;
 }
 
 .footer {
+    margin: auto;
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 101.5px;
     padding-bottom: 0;
     padding-left: 156px;
+    width: 1128px;
+    align-items: center;
 
     background-color: #2E2F42;
 }
