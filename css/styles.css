@@ -36,8 +36,8 @@ a {
 
 .container {
     width: 1128px;
-    padding-left: auto;
-    padding-right: auto;
+    /*padding-left: auto;
+    padding-right: auto;*/
     text-align: center;
     margin: 0 auto;
 } 
@@ -71,10 +71,10 @@ color: #404bbf;
 text-decoration: underline;
 }
 .menu .menu-item {
-    margin-left: 40px;
+    padding-left: 40px;
 }
 .menu .menu-item:not(:last-child){
-    margin-right: 40px;
+    padding-right: 40px;
 }
 .header-logo-nav{
     color: #2E2F42;
@@ -156,7 +156,7 @@ text-decoration: underline;
     padding-top: 188px;
     margin-top:0;
     margin-bottom: 0;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -194,6 +194,12 @@ text-decoration: underline;
 .modal-btn:focus {
 background-color: #404BBF;
 }
+
+
+
+/* ABOUT */
+
+
 .container-about {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -204,18 +210,23 @@ padding-bottom: 0;
 background-color: #FFFFFF;
 }
 .section-about-us {
+    /* padding-right: 24px; */
     display: flex;
     text-align: left;
-
 }
 .section-about-article {
-    max-width: 264px;
-    margin-left: 24px;
-   
+    padding-right: 24px;
+}
+.section-about-article:last-child {
+    padding-right: 0;
+    margin: 0;
+    /* max-width: 264px; */
+    /* padding-left: 24px; */
 }
 .section-about-item {
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 0;
+    padding-bottom: 8px;
 
     /* font-family: 'Roboto', sans-serif; */
     font-style: normal;
@@ -228,10 +239,10 @@ color: #2E2F42;
 }
 
 .discription-about {
+    max-width: 264px;
     margin-top: 0;
     margin-bottom: 0;
 
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -240,8 +251,13 @@ color: #2E2F42;
 
     color: #434455;
 }
+
+/* FEATURES */
+
+
 .section-features{
     margin-top: 0;
+    margin-bottom: 0;
     padding-bottom: 120px;
    background-color: #FFFFFF;
 }
@@ -252,11 +268,11 @@ color: #2E2F42;
 }
 .section-features-item .section-features-card:not(:last-child) {
     margin-right: 24px;
+    
 }
 .section-features-title {
     margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -268,13 +284,19 @@ color: #2E2F42;
 
     color: #2E2F42;
 }
+.features-photo {
+    max-width: 360px;
+    height: 300px;
+}
 
+/* OUR TEAM */
 
 
 .section-employees {
 background-color: #F4F4FD;
 }
 .container-team {
+        /*padding-left: 24px;*/
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 120px;
@@ -283,7 +305,7 @@ background-color: #F4F4FD;
 
 .section-employees-name {
     margin-top: 0px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     padding-bottom: 72px;
     text-align: center;
     font-style: normal;
@@ -303,19 +325,20 @@ background-color: #F4F4FD;
     display: flex;
 }
 .employees-list .section-employee-card {
-margin-right: 24px;
+
 background-color: #FFFFFF;
-}
-.section-employees-name:nth-child(4n) {
-    margin-right: 0;
 }
 .section-employee-card {
     gap: 32px;
-     
+
     width: 264px;
-   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
+/*.section-features-item*/ .section-employee-card:not(:first-child) {
+margin-left: 24px;
+}
+
 .employee-photo {
     margin-top: 0;
     margin-bottom: 0;
@@ -350,25 +373,35 @@ background-color: #FFFFFF;
     color: #434455
 }
 
+/* FOOTER */
+
+.logo {
+    margin-bottom: 17.5px;
+    margin-left: 0px;
+}
+
 .footer {
     margin: auto;
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 101.5px;
     padding-bottom: 0;
-    padding-left: 156px;
-    width: 1128px;
+    /*padding-left: 156px;*/
     align-items: center;
 
     background-color: #2E2F42;
 }
 
+.container-footer {
+    text-align: left;
+}
+
 
 .footer-item {
-    padding-top: 17.5px;
-    margin-top: 0;
+    margin-top: 17.5px;
     margin-bottom: 0;
     max-width: 264px;
+    
     padding-bottom: 100px;
     font-style: normal;
     font-weight: 400;
@@ -391,19 +424,19 @@ background-color: #FFFFFF;
     background-color: #FFFFFF;
 }
 .filter-list {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 96px;
-    padding-bottom: 72px;
+    margin-top: 96px;
+    margin-bottom: 72px;
     display: flex;
     justify-content: center;
 }
 
 .filter-list-item {
     text-align: center;
+    max-width: 360px;
+    max-height: 420px;
 }
 .filter-list .filter-list-item + .filter-list-item {
-    margin-left: 40px;
+    padding-left: 40px;
 }
 .filter-btn {
         display: inline-block;
@@ -466,7 +499,7 @@ margin-right: 0;
 }
 .opportunity-card {
     margin-top: 0;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
 }
 
 .opportunity-item {
