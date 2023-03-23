@@ -54,7 +54,9 @@ a {
 
 .logo {
     margin-top: 17.5px;
-    
+    margin-bottom: 17.5px;
+    margin-left: 0px;
+
     font-family: 'Raleway', sans-serif;
     font-style: ExtraBold;
     font-weight: 800;
@@ -308,8 +310,7 @@ background-color: #F4F4FD;
 
 .section-employees-name {
     margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     text-align: center;
     font-style: normal;
     font-weight: 700;
@@ -378,11 +379,6 @@ margin-left: 24px;
 }
 
 /* FOOTER */
-
-.logo {
-    margin-bottom: 17.5px;
-    margin-left: 0px;
-}
 
 .footer {
     margin: auto;
