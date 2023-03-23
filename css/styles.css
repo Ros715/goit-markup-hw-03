@@ -53,6 +53,8 @@ a {
 
 
 .logo {
+    margin-top: 17.5px;
+    
     font-family: 'Raleway', sans-serif;
     font-style: ExtraBold;
     font-weight: 800;
@@ -264,11 +266,12 @@ color: #2E2F42;
 .section-features-item {
     width: 1128px;
     display: flex;
+    max-height: 300px;
 
 }
 .section-features-item .section-features-card:not(:last-child) {
     margin-right: 24px;
-    
+    padding-bottom: 0;
 }
 .section-features-title {
     margin-top: 0;
@@ -329,6 +332,7 @@ background-color: #F4F4FD;
 background-color: #FFFFFF;
 }
 .section-employee-card {
+    
     gap: 32px;
 
     width: 264px;
